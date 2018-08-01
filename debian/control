@@ -1,0 +1,12 @@
+Source: ros-melodic-code-coverage
+Section: misc
+Priority: extra
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Build-Depends: debhelper (>= 9.0.0), lcov, ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-code-coverage
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, lcov
+Description: CMake configuration to run coverage
