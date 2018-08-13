@@ -1,0 +1,18 @@
+ros-melodic-code-coverage (0.2.1-0artful) artful; urgency=high
+
+  * Merge pull request #3 <https://github.com/mikeferguson/code_coverage/issues/3> from mikeferguson/catkin_build_fix
+    Add support for catkin_tools (fixes #2 <https://github.com/mikeferguson/code_coverage/issues/2>)
+  * add information on how to run with catkin_tools
+  * minor escaping patch to work with catkin_tools
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Mon, 13 Aug 2018 04:00:00 -0000
+
+ros-melodic-code-coverage (0.2.0-0artful) artful; urgency=high
+
+  * First release
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Wed, 01 Aug 2018 04:00:00 -0000
+
+
