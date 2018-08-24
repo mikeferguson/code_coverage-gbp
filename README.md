@@ -1,3 +1,26 @@
+## code_coverage (melodic) - 0.2.3-0
+
+The packages in the `code_coverage` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic code_coverage` on `Fri, 24 Aug 2018 15:20:32 -0000`
+
+The `code_coverage` package was released.
+
+Version of package(s) in repository `code_coverage`:
+
+- upstream repository: https://github.com/mikeferguson/code_coverage.git
+- release repository: https://github.com/mikeferguson/code_coverage-gbp.git
+- rosdistro version: `0.2.2-0`
+- old version: `0.2.2-0`
+- new version: `0.2.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.40`
+
+
 ## code_coverage (lunar) - 0.2.3-0
 
 The packages in the `code_coverage` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -r lunar -t lunar code_coverage` on `Fri, 24 Aug 2018 15:15:14 -0000`
