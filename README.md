@@ -1,3 +1,26 @@
+## code_coverage (kinetic) - 0.2.4-1
+
+The packages in the `code_coverage` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic code_coverage` on `Fri, 19 Jul 2019 02:46:51 -0000`
+
+The `code_coverage` package was released.
+
+Version of package(s) in repository `code_coverage`:
+
+- upstream repository: https://github.com/mikeferguson/code_coverage.git
+- release repository: https://github.com/mikeferguson/code_coverage-gbp.git
+- rosdistro version: `0.2.3-0`
+- old version: `0.2.3-0`
+- new version: `0.2.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## code_coverage (melodic) - 0.2.3-0
 
 The packages in the `code_coverage` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic code_coverage` on `Fri, 24 Aug 2018 15:20:32 -0000`
