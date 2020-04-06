@@ -1,3 +1,26 @@
+## code_coverage (noetic) - 0.4.1-1
+
+The packages in the `code_coverage` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic code_coverage` on `Mon, 06 Apr 2020 02:25:04 -0000`
+
+The `code_coverage` package was released.
+
+Version of package(s) in repository `code_coverage`:
+
+- upstream repository: https://github.com/mikeferguson/code_coverage.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## code_coverage (melodic) - 0.4.0-1
 
 The packages in the `code_coverage` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic code_coverage` on `Mon, 06 Apr 2020 02:03:23 -0000`
