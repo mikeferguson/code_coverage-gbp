@@ -1,3 +1,26 @@
+## code_coverage (kinetic) - 0.4.3-1
+
+The packages in the `code_coverage` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic code_coverage` on `Thu, 30 Jul 2020 17:03:42 -0000`
+
+The `code_coverage` package was released.
+
+Version of package(s) in repository `code_coverage`:
+
+- upstream repository: https://github.com/mikeferguson/code_coverage.git
+- release repository: https://github.com/mikeferguson/code_coverage-gbp.git
+- rosdistro version: `0.4.2-1`
+- old version: `0.4.2-1`
+- new version: `0.4.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.40`
+
+
 ## code_coverage (noetic) - 0.4.2-1
 
 The packages in the `code_coverage` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -t noetic -r noetic code_coverage` on `Tue, 05 May 2020 12:40:59 -0000`
