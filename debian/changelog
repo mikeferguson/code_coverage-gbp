@@ -1,0 +1,103 @@
+ros-kinetic-code-coverage (0.4.3-1xenial) xenial; urgency=high
+
+  * Use multiple python coverage files (#23 <https://github.com/mikeferguson/code_coverage/issues/23>)
+    Co-authored-by: hslusarek <mailto:h.slusarek@pilz.de>
+  * add note that robot_calibration uses this package
+  * fix #25 <https://github.com/mikeferguson/code_coverage/issues/25>
+  * Add new report formats (#24 <https://github.com/mikeferguson/code_coverage/issues/24>)
+    * Add html report format
+    * Add console report format
+    * Add '--include'  and '--omit' flag to python-coverage commands
+  * Contributors: Alexander Gutenkunst, Michael Ferguson, hslusarek
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Thu, 30 Jul 2020 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.4.2-1xenial) xenial; urgency=high
+
+  * Add option for specifying extra flags to genhtml (#20 <https://github.com/mikeferguson/code_coverage/issues/20>)
+    This modification allows you to add flags to the genhtml step so that you can do things like output the lcov report with demangled C++ function names, e.g.:
+    catkin_make -DGENHTML_EXTRA_FLAGS="--demangle-cpp" -DENABLE_COVERAGE_TESTING=ON -DCMAKE_BUILD_TYPE=Debug test1_coverage_report
+  * Add catkin_make build step in usage example (#19 <https://github.com/mikeferguson/code_coverage/issues/19>)
+  * bump cmake version for noetic
+  * Contributors: Immanuel Martini, Michael Ferguson, mschickler
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Tue, 05 May 2020 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.4.1-1xenial) xenial; urgency=high
+
+  * update package.xml for noetic
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Sun, 05 Apr 2020 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.4.0-1xenial) xenial; urgency=high
+
+  * add support for python-based coverage (#18 <https://github.com/mikeferguson/code_coverage/issues/18>)
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Thu, 02 Apr 2020 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.3.0-1xenial) xenial; urgency=high
+
+  * update target name in readme
+  * Merge pull request #15 <https://github.com/mikeferguson/code_coverage/issues/15> from rhaschke/master
+    Simplify + clarify usage
+  * add link to original source
+  * simplify usage
+    - automatically include(CodeCoverage)
+    - clarify that APPEND_COVERAGE_COMPILER_FLAGS() needs to be called before defining any target
+  * Merge pull request #13 <https://github.com/mikeferguson/code_coverage/issues/13> from leunMar/fix/usage_docu
+    Fix example of add_code_coverage() in README.md
+  * Fix example of add_code_coverage() in README.md
+  * Contributors: Immanuel Martini, Michael Ferguson, Robert Haschke
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Mon, 18 Nov 2019 05:00:00 -0000
+
+ros-kinetic-code-coverage (0.2.4-1xenial) xenial; urgency=high
+
+  * Merge pull request #11 <https://github.com/mikeferguson/code_coverage/issues/11> from agutenkunst/master
+    Keep *.info.cleaned. Closes #10 <https://github.com/mikeferguson/code_coverage/issues/10>
+  * Keep *.info.cleaned. Closes #10 <https://github.com/mikeferguson/code_coverage/issues/10>
+  * Merge pull request #8 <https://github.com/mikeferguson/code_coverage/issues/8> from jschleicher/documentation
+    documentation: degrade to test_depend
+  * documentation degrade to test_depend
+    and note that build type should be set to Debug
+  * Contributors: Alexander Gutenkunst, Joachim Schleicher, Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Thu, 18 Jul 2019 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.2.3-1xenial) xenial; urgency=high
+
+  * Merge pull request #7 <https://github.com/mikeferguson/code_coverage/issues/7> from jschleicher/fix/installed_package
+    fix search path for installed package
+  * fix search path for installed package
+    Closes #6 <https://github.com/mikeferguson/code_coverage/issues/6>
+  * Contributors: Joachim Schleicher, Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Fri, 24 Aug 2018 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.2.2-1xenial) xenial; urgency=high
+
+  * fix name of installspace file
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Tue, 21 Aug 2018 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.2.1-1xenial) xenial; urgency=high
+
+  * Merge pull request #3 <https://github.com/mikeferguson/code_coverage/issues/3> from mikeferguson/catkin_build_fix
+    Add support for catkin_tools (fixes #2 <https://github.com/mikeferguson/code_coverage/issues/2>)
+  * add information on how to run with catkin_tools
+  * minor escaping patch to work with catkin_tools
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Mon, 13 Aug 2018 04:00:00 -0000
+
+ros-kinetic-code-coverage (0.2.0-1xenial) xenial; urgency=high
+
+  * First release
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mike@vanadiumlabs.com>  Wed, 01 Aug 2018 04:00:00 -0000
+
+
